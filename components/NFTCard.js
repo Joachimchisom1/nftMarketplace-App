@@ -8,7 +8,7 @@ import {
   SubInfo,
   EthPrice,
   People,
-  NFTTile,
+  NFTTitle,
   EndDate,
   ImageCmp,
 } from './SubInfo'
@@ -42,7 +42,7 @@ const NFTCard = ({ data }) => {
       <SubInfo />
 
       <View style={{ width: '100%', padding: SIZES.font }}>
-        <NFTTile
+        <NFTTitle
           title={data.name}
           subTitle={data.creator}
           titleSize={SIZES.large}

@@ -95,7 +95,7 @@ const HomeHeader = ({ onSearch }) => {
           <TextInput
             placeholder="Search NTFs"
             style={{ flex: 1 }}
-            onChangeText={() => {}}
+            onChangeText={onSearch}
           />
         </View>
       </View>
